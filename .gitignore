@@ -1,0 +1,26 @@
+# Xcode
+*.xcworkspace/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+xcuserdata/
+*.moved-aside
+DerivedData/
+.DS_Store
+*.swiftsource
+*.swiftpm/
+
+# SPM
+.build/
+*.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+*.log
+*.tmp
+.env
