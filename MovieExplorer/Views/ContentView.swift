@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    let service = TMBService(token: Config.tmdbToken)
+    
     var body: some View {
         TabView {
             Text("Discover")
